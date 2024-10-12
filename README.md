@@ -1,34 +1,61 @@
+# 🧪 Laboratorio 2.1 de Python: NumPy
 
-# Laboratorio NumPy - Módulo 2, Lección 1
+Este laboratorio tiene como objetivo aprender el uso de NumPy, una biblioteca esencial en Python para el manejo de arreglos y matrices multidimensionales. A través de una serie de ejercicios prácticos, se exploran operaciones básicas y avanzadas para la manipulación de arrays.
 
-Este repositorio contiene los ejercicios del laboratorio de NumPy como parte del Módulo 2, Lección 1. A continuación, se describen los ejercicios incluidos en este notebook:
+## 📘 Contenido del laboratorio
 
-## Ejercicios:
+### 1. Crear un array 1D con los números del 0 al 9
+Se inicia creando un array unidimensional que contiene los números del 0 al 9.
 
-1. **Ejercicio 1**: Crear un array unidimensional (1D) con los números del 0 al 9.
-2. **Ejercicio 2**: Convertir un array 1D en un array bidimensional (2D) con 2 filas y 5 columnas.
-3. **Ejercicio 3**: Encontrar los índices de los elementos con valor distinto de 0 en el array `[0, 2, 0, 3, 0, 4, 0]`.
-4. **Ejercicio 4**: Crear un array de 3x3 con valores aleatorios entre 0 y 1.
-5. **Ejercicio 5**: Crear un array de 10 números aleatorios y encontrar los valores máximo y mínimo.
-6. **Ejercicio 6**: Crear un array unidimensional y luego invertirlo.
-7. **Ejercicio 7**: Generar un array tridimensional de dimensiones (2, 3, 4) con valores enteros del 1 al 24, y realizar varias selecciones:
-   - Seleccionar el primer `15` del array.
-   - Seleccionar todos los elementos del primer array.
-   - Seleccionar la última fila del último array.
+### 2. Convertir un array 1D en un array 2D con 2 filas y 5 columnas
+Este ejercicio muestra cómo cambiar la forma de un array usando `reshape()` para convertirlo en una matriz.
 
-## Requisitos:
-- Python 3.x
-- Biblioteca NumPy
+### 3. Encontrar los índices de elementos distintos de 0
+Se trabaja con un array y se localizan los elementos que no son cero utilizando funciones como `np.nonzero()`.
 
-## Instrucciones:
+### 4. Crear una matriz 3x3 con valores aleatorios entre 0 y 1
+Generar matrices con valores aleatorios es importante en el análisis de datos, y aquí se utiliza `np.random.rand()` para crear una matriz aleatoria.
+
+### 5. Encontrar el valor máximo y mínimo de un array aleatorio
+Generar un array de 10 números aleatorios y luego encontrar el valor máximo y mínimo usando `np.max()` y `np.min()`.
+
+### 6. Invertir un array de una dimensión
+Este ejercicio invierte los elementos de un array usando operaciones avanzadas de slicing.
+
+### 7. Generar arrays tridimensionales
+Crear arrays tridimensionales es útil en el trabajo con imágenes o datos volumétricos. Aquí se trabaja con dimensiones `(4,3,2)` y otras variaciones.
+
+### 8. Sumar elementos a lo largo de filas y columnas
+Se utiliza la función `sum()` para calcular la suma de los elementos de una matriz 4x4 a lo largo de sus filas y columnas.
+
+### 9. Crear una matriz de 5x5 con valores en el borde iguales a 1 y en el interior igual a 0
+Este ejercicio simula una matriz de borde usando técnicas de indexación.
+
+### 10. Calcular la media y la desviación estándar
+Se genera un array aleatorio y se calculan su media y desviación estándar, operaciones importantes para el análisis estadístico.
+
+### 11. Ejercicios de manipulación de arrays en 3D
+Se practican diversas operaciones con arrays tridimensionales, como cambiar su forma, reorganizar los elementos, y verificar la igualdad de filas y columnas.
+
+---
+
+## 🚀 Cómo ejecutar el laboratorio
 1. Clona este repositorio en tu máquina local.
-2. Ejecuta el notebook para completar los ejercicios, o realiza las pruebas en tu propio entorno de desarrollo.
-
-## Instalación de dependencias:
-Puedes instalar las dependencias necesarias utilizando `pip`:
+2. Asegúrate de tener instalado Python 3.x y la biblioteca NumPy.
+3. Ejecuta los ejercicios abriendo el archivo `.ipynb` con Jupyter Notebook o cualquier entorno compatible con notebooks de Python.
 
 ```bash
-pip install numpy
+git clone https://github.com/tu-usuario/tu-repositorio.git
+cd tu-repositorio
 ```
 
-¡Disfruta resolviendo los ejercicios!
+4. Sigue las instrucciones dentro de cada celda del notebook para completar los ejercicios.
+
+---
+
+## 🤖 Tecnologías usadas
+- Python 3.x
+- Jupyter Notebook
+- NumPy
+
+---
